@@ -1,0 +1,8 @@
+PYHTON!
+
+
+drivetrain.drive(FORWARD)
+while True:
+    if distance_9.object_distance(INCHES)<10:
+        drivetrain.stop()
+        wait(0.030,SECONDS)
